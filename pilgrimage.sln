@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31410.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".root", ".root", "{6228A9F7-00DC-40EC-9043-71772EEBCBF6}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		common.props = common.props
+		debugtarget.props = debugtarget.props
+		directory.build.props = directory.build.props
+		Directory.Build.targets = Directory.Build.targets
+		LICENSE = LICENSE
+		README.md = README.md
+		stylecop.json = stylecop.json
+		tacitfirefox.ruleset = tacitfirefox.ruleset
+		version.props = version.props
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "source", "source", "{04687B0C-A8EC-4AB2-AC91-E00D24223539}"
+	ProjectSection(SolutionItems) = preProject
+		source\directory.build.props = source\directory.build.props
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{0AA5EF9C-AA6A-49EC-8715-AAF4EE9291A6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "pilgrimage.domain", "source\pilgrimage.domain\pilgrimage.domain.csproj", "{F0055089-10FA-436E-AFFD-7FDCE06A05CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pilgrimage.services.implementation.tacitfirefox", "source\pilgrimage.services.implementation.tacitfirefox\pilgrimage.services.implementation.tacitfirefox.csproj", "{5508011F-35FF-40C4-B252-419BACCAFC20}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "pilgrimage.services", "source\pilgrimage.services\pilgrimage.services.csproj", "{72EA454C-3BC8-4A67-944F-C7B49E5D6E67}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F0055089-10FA-436E-AFFD-7FDCE06A05CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0055089-10FA-436E-AFFD-7FDCE06A05CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0055089-10FA-436E-AFFD-7FDCE06A05CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0055089-10FA-436E-AFFD-7FDCE06A05CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5508011F-35FF-40C4-B252-419BACCAFC20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5508011F-35FF-40C4-B252-419BACCAFC20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5508011F-35FF-40C4-B252-419BACCAFC20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5508011F-35FF-40C4-B252-419BACCAFC20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72EA454C-3BC8-4A67-944F-C7B49E5D6E67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72EA454C-3BC8-4A67-944F-C7B49E5D6E67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72EA454C-3BC8-4A67-944F-C7B49E5D6E67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72EA454C-3BC8-4A67-944F-C7B49E5D6E67}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F0055089-10FA-436E-AFFD-7FDCE06A05CC} = {04687B0C-A8EC-4AB2-AC91-E00D24223539}
+		{5508011F-35FF-40C4-B252-419BACCAFC20} = {04687B0C-A8EC-4AB2-AC91-E00D24223539}
+		{72EA454C-3BC8-4A67-944F-C7B49E5D6E67} = {04687B0C-A8EC-4AB2-AC91-E00D24223539}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9FD02EBB-1636-4DB2-AC92-7763D5F1D4AD}
+	EndGlobalSection
+EndGlobal
