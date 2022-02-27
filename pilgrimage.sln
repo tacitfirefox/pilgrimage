@@ -24,7 +24,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "source", "source", "{04687B
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quartermaster.Core", "source\Quartermaster.Core\Quartermaster.Core.csproj", "{182B4841-E4D4-476F-BB54-460B7646FDE3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quartermaster.Pilgrimage", "source\Quartermaster.Pilgrimage\Quartermaster.Pilgrimage.csproj", "{50DBCE33-ADDF-420E-8705-1FF949B2B563}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quartermaster.Pilgrimage", "source\Quartermaster.Pilgrimage\Quartermaster.Pilgrimage.csproj", "{50DBCE33-ADDF-420E-8705-1FF949B2B563}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{7FE8AFA4-C83D-4CBF-B283-E3AB2A66F464}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\quartermasters.drawio = .github\workflows\quartermasters.drawio
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
